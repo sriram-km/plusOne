@@ -1,0 +1,103 @@
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #DDDDDD;
+}
+
+a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a.button:hover {
+    color: black;
+}
+
+a.button {
+  background-color: #333333;
+  color: #CCCCCC;
+}
+
+#button1{
+  float:left;
+  padding: 0px;
+}
+#button1 > img {
+    width: 48px;
+}
+
+#button2{
+  font-size: 30px;
+  display: block;
+  font-weight: bold;
+  position:absolute;
+  margin: 8px auto;
+  float:left;
+  left:50%;
+  transform: translate(-50%, 0%);
+}
+
+#button3{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+ul, li {
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+a {text-decoration:none;}
+
+.profile {
+  background:#333333;
+}
+.profile:hover {
+  cursor:pointer;
+  background:#333333;
+}
+.profile .name {
+  color:#fff;
+}
+.profile .name:hover {
+}
+
+/* hide menu */
+.menu {
+  display:none;
+  clear:both;
+  margin:20px 0 0 0;
+}
+.menu li {
+  font-size:12px;
+  margin:0;
+  padding: 10px 4px;
+}
+.menu li a {
+  color: #CCCCCC;
+}
+
+.menu li:hover{
+  border-left: 1px solid #111;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+  border-top: 1px solid #111;
+  border-radius: 3px;
+
+  background-color: #CCCCCC;
+}
+
+.menu li:hover > .menu-item{
+    color: #333333;
+}
+
+/* hover profile show menu */
+.profile:hover .menu {
+  display:block;
+}

@@ -1,0 +1,46 @@
+.wrap .data{
+    overflow-y: auto;
+    position:relative;
+    height: 70%;
+}
+
+.wrap .data{
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.wrap .data::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.wrap .topBar{
+    width:100%;
+    margin-top:10vh;
+}
+
+.wrap .topBar > button, .wrap .topBar > input, .wrap .topBar > p  {
+    color: var(--DarkCharcoal);
+    font-size: 30px;
+    display: inline-block;
+}
+
+.wrap .topBar > p {
+    display: inline-block;
+}
+
+table{
+    margin: auto;
+}
+
+table, th, td {
+  border: 2px solid var(--DarkCharcoal);
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px 10px;
+
+}
+
+tr:nth-child(even) {
+  background-color: var(--X11Gray);
+}

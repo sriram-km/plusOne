@@ -1,0 +1,105 @@
+.wrap .data{
+    overflow-y: auto;
+    position:relative;
+    height: 70%;
+}
+
+.wrap .data{
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.wrap .data::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.wrap .topBar{
+    width:100%;
+    margin-top:10vh;
+}
+
+.wrap .topBar > button, .wrap .topBar > input, .wrap .topBar > p  {
+    color: var(--DarkCharcoal);
+    font-size: 30px;
+    display: inline-block;
+}
+
+.wrap .topBar > p {
+    display: inline-block;
+}
+
+table{
+    margin: auto;
+}
+
+table, th, td {
+  border: 2px solid var(--DarkCharcoal);
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px 10px;
+
+}
+
+tr:nth-child(even) {
+  background-color: var(--X11Gray);
+}
+
+.formContainer{
+    position: fixed;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: var(--Gainsboro);
+    display: none;
+}
+
+.formContainer > #closeButton{
+    position:absolute;
+    top:0;
+    right:0;
+    font-size: 30px;
+    border: none;
+    background-color: var(--Gainsboro);
+}
+
+.formContainer input[type=text], .formContainer input[type=number], .formContainer input[type=button], .formContainer textarea,.formContainer label  {
+    display: block;
+    margin: auto;
+}
+
+.formContainer input[type=text], .formContainer input[type=number], .formContainer textarea {
+  width: 70%;
+  padding: 15px;
+  border: 1px solid var(--DarkCharcoal);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: var(--BrightGrey);
+  color: var(--DarkCharcoal);
+}
+
+.formContainer input[type=button] {
+  background-color: var(--DarkCharcoal);
+  color: var(--BrightGrey);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formContainer input[type=button]:hover {
+  background-color: var(--BrightGrey);
+  color: var(--DarkCharcoal);
+  border: 1px solid var(--DarkCharcoal);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: var(--Gainsboro);
+  padding: 20px;
+}

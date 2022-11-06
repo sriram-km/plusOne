@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+:root {
+  --BrightGrey: #EEEEEE;
+  --Gainsboro: #DDDDDD;
+  --ChineseSilver: #CCCCCC;
+  --X11Gray: #BBBBBB;
+  --DarkCharcoal: #333333;
+}
+
+body{
+  background: #EEEEEE;
+  text-align: center;
+  margin: 0;
+}

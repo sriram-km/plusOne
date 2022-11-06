@@ -1,0 +1,11 @@
+.data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.data div{
+    margin: 20px;
+    padding: 10px;
+}
